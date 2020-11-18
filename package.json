@@ -1,0 +1,47 @@
+{
+  "_from": "node-red-contrib-re-postgres@~0.2.2",
+  "_id": "node-red-contrib-re-postgres@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-fJJSTDqN1a052dwtNlxEVKDK1BUzcUPCnKg0mSZL4//NX54W14go9ai12sZSUTamicrtlOls4CXqW0C4vp3toA==",
+  "_location": "/node-red-contrib-re-postgres",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "node-red-contrib-re-postgres@~0.2.2",
+    "name": "node-red-contrib-re-postgres",
+    "escapedName": "node-red-contrib-re-postgres",
+    "rawSpec": "~0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "~0.2.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-re-postgres/-/node-red-contrib-re-postgres-0.2.2.tgz",
+  "_shasum": "c915ea4184902290943743c2dc092eeb1c90198a",
+  "_spec": "node-red-contrib-re-postgres@~0.2.2",
+  "_where": "/home/david/.node-red",
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-postgres-named": "^2.4.1",
+    "pg": "^7.18.2",
+    "pg-cursor": "^2.1.6"
+  },
+  "deprecated": false,
+  "description": "A Node-RED node to query PostgreSql",
+  "keywords": [
+    "node-red",
+    "postgres",
+    "postgresql"
+  ],
+  "license": "MIT",
+  "name": "node-red-contrib-re-postgres",
+  "node-red": {
+    "nodes": {
+      "PostgreSql": "lib/pg.js"
+    }
+  },
+  "version": "0.2.2"
+}
